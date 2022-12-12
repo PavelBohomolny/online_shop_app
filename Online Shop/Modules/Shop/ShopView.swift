@@ -10,6 +10,7 @@ import SwiftUI
 struct ShopView: View {
     
     @EnvironmentObject var shopVM: ShopViewModel
+    @State private var selectedProduct: ProductModel? = nil
     
     var body: some View {
         ZStack {
@@ -34,6 +35,12 @@ extension ShopView {
                 ForEach(shopVM.products) { product in
                     // product card view
                     ProductCardView(product: product)
+                        .onTapGesture {
+                            selectedProduct = product
+                        }
+                }
+                .sheet(item: $selectedProduct) { product in
+                    ProductDetailView(product: product)
                 }
             }
         }

@@ -17,7 +17,7 @@ struct ProductCardView: View {
             // product image
             Image(product.image)
                 .resizable()
-                .clipShape(RoundedRectangle(cornerRadius: 5))
+                .clipShape(RoundedRectangle(cornerRadius: 8))
             .frame(width: Settings.shared.productCardsSize, height: Settings.shared.productCardsSize)
             
             // product data
@@ -30,3 +30,8 @@ struct ProductCardView: View {
     }
 }
 
+struct ProductCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        ProductCardView(product: ShopViewModel.sampleProduct)
+    }
+}

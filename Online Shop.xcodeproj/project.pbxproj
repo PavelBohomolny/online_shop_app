@@ -20,6 +20,8 @@
 		FAD2606D29438E0700E4A9D1 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2606C29438E0700E4A9D1 /* ShopViewModel.swift */; };
 		FAD2606F2947485C00E4A9D1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2606E2947485C00E4A9D1 /* Settings.swift */; };
 		FAD26072294749A200E4A9D1 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD26071294749A200E4A9D1 /* ProductCardView.swift */; };
+		FAD26075294783AB00E4A9D1 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD26074294783AB00E4A9D1 /* ProductDetailView.swift */; };
+		FAD26077294791CA00E4A9D1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD26076294791CA00E4A9D1 /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FAD2606C29438E0700E4A9D1 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
 		FAD2606E2947485C00E4A9D1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		FAD26071294749A200E4A9D1 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		FAD26074294783AB00E4A9D1 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		FAD26076294791CA00E4A9D1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD2605C2943833600E4A9D1 /* ColorTheme.swift */,
+				FAD26076294791CA00E4A9D1 /* Double.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD26071294749A200E4A9D1 /* ProductCardView.swift */,
+				FAD26074294783AB00E4A9D1 /* ProductDetailView.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 				FAD2605D2943833600E4A9D1 /* ColorTheme.swift in Sources */,
 				FAD26060294384DB00E4A9D1 /* HomeView.swift in Sources */,
 				FAD2605129437F8100E4A9D1 /* OnlineShopView.swift in Sources */,
+				FAD26077294791CA00E4A9D1 /* Double.swift in Sources */,
 				FAD2606F2947485C00E4A9D1 /* Settings.swift in Sources */,
+				FAD26075294783AB00E4A9D1 /* ProductDetailView.swift in Sources */,
 				FAD260622943850F00E4A9D1 /* ShopView.swift in Sources */,
 				FAD2606B29438BAF00E4A9D1 /* ShopModel.swift in Sources */,
 				FAD260662943853800E4A9D1 /* ProfileView.swift in Sources */,
