@@ -34,12 +34,6 @@ struct OnlineShopView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnlineShopView()
-    }
-}
-
 extension OnlineShopView {
     // pages
     @ViewBuilder private var pages: some View {
