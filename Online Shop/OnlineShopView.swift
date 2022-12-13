@@ -74,3 +74,4 @@ extension OnlineShopView {
         .frame(width: UIScreen.main.bounds.width, height: 37)
     }
 }
+
