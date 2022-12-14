@@ -8,11 +8,11 @@
 import Foundation
 
 enum Brands: String {
-    case brand1 = "Brend1"
-    case brand2 = "Brend2"
-    case brand3 = "Brend3"
-    case brand4 = "Brend4"
-    case brand5 = "Brend5"
+    case brand1 = "Brand1"
+    case brand2 = "Brand2"
+    case brand3 = "Brand3"
+    case brand4 = "Brand4"
+    case brand5 = "Brand5"
 }
 
 struct ProductModel: Identifiable {
@@ -32,5 +32,17 @@ struct ProductModel: Identifiable {
         self.description = description
         self.cost = cost
         self.image = image
-    } 
+    }
+    
+    var data: [String:Any] {
+        var data: [String:Any] = [:]
+        data["id"] = id
+        data["article"] = article
+        data["brand"] = brand
+        data["name"] = name
+        data["description"] = description
+        data["cot"] = cost
+        data["image"] = image
+        return data
+    }
 }
