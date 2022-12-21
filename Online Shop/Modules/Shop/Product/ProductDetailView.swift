@@ -10,6 +10,7 @@ import SwiftUI
 struct ProductDetailView: View {
     
     @Environment(\.presentationMode) private var mode
+    @EnvironmentObject private var shopVM: ShopViewModel
     let product: ProductModel
     
     var body: some View {
@@ -109,7 +110,7 @@ extension ProductDetailView {
     // upload product data
     private var uploadProductData: some View {
         Button(action: {
-            
+            shopVM.uploadProductData(product: product)
         }, label: {
             Image(systemName: "arrow.up")
                 .foregroundColor(Color.palette.child)
